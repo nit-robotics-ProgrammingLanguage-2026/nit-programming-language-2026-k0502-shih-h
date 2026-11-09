@@ -4,7 +4,7 @@ int main(void)
 {
     int input;
     scanf("%d", &input);
-    if (0 /* TODO: ここに条件式を書く */)
+    if (0 <= input && input < 15 && input != 12)
     {
         printf("OK");
     }
